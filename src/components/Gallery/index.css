@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  max-width: 1150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.photographer {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 16px;
+}
+.thumbnails-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
